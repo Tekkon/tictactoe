@@ -12,10 +12,13 @@
     "clear": "rimraf dist .parcel-cache"
   },
   "dependencies": {
+    "node-sass": "^6.0.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@parcel/transformer-sass": "^2.0.1",
     "babel-eslint": "^10.1.0",
     "babel-preset-nano-react-app": "^0.1.0",
     "eslint": "^8.3.0",
@@ -24,7 +27,7 @@
     "eslint-plugin-import": "^2.25.3",
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-react": "^7.27.1",
-    "parcel": "^2.0.0-alpha.3.2",
+    "parcel": "^2.0.1",
     "prettier": "^2.5.0",
     "rimraf": "^3.0.2"
   },
